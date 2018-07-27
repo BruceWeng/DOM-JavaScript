@@ -87,3 +87,7 @@ let odds = document.querySelectorAll('li:nth-child(odd)');
 for (let i = 0; i < odds.length; i += 1) {
     odds[i].style.backgroundColor = '#f4f4f4';
 }
+
+// SET COOKIE WITH KEY VALUE PAIRS
+// document.cookie = "key=value";
+document.cookie = "apple=great";
