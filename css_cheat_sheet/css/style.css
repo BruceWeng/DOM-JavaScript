@@ -3,6 +3,11 @@
    2. Hexidecimal
    3. RGB
 */
+* {
+    /* Reset */
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: #aff;
     color: #555;
@@ -27,4 +32,27 @@ body {
 .box-1 {
     background-color: #333;
     color: #fff;
+    /* Box model:
+        Padding: space between content and border
+        Margin: space bwtween border and window edge
+    */
+    /* SHORTHAND: border: (width color style) */
+    border-top: 5px red solid;
+    border-right: 5px red solid;
+    border-bottom: 5px red solid;
+    border-left: 5px red solid;
+    /* border: 5px red solid same as above */
+
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    /* padding: 20px same as above*/
+
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    /* margin: 20px same as above */
+
 }
