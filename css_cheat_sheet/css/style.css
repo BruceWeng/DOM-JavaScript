@@ -58,6 +58,12 @@ a:active {
     /* Change mouse into clickable */
     cursor: pointer;
 }
+
+/* Clear class for clearing float property */
+.clr {
+    clear: both;
+}
+
 .box-1 {
     background-color: #333;
     color: #fff;
