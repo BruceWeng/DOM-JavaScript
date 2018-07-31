@@ -162,3 +162,41 @@ a:active {
     padding: 15px;
     box-sizing: border-box;
 }
+
+/* Positioning: relative */
+.p-box {
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    position: relative;
+}
+
+/* Positioning: absolute, need to put in relative containing block */
+.p-box h1 {
+    position: absolute;
+    margin: 20px;
+}
+
+/* Positioning: absolute */
+.p-box h3 {
+    position: absolute;
+    margin: 50px;
+}
+
+/* Positioning: fixed */
+.fix-me {
+    position: fixed;
+    top: 400px;
+}
+
+/* Positioning: sticky (be fixed after specific viewport, need to put in relative containing block) */
+.stick-me {
+    position: sticky;
+    left: 0;
+}
+/* Positioning: */
+/* Static */
+/* Relative (Pattern: parent DOM aka. containing block) */ 
+/* Absolute (Pattern: children DOM) */
+/* Fixed */
+/* Sticky (Pattern: children DOM) */
